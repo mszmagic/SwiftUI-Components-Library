@@ -43,6 +43,9 @@
 		DAC28BEB2537D1A6009751EB /* PreviewController_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC28BEA2537D1A6009751EB /* PreviewController_Example.swift */; };
 		DAC28BF22537D2BE009751EB /* Example_Com_PDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DAC28BF12537D2BE009751EB /* Example_Com_PDF.pdf */; };
 		DAC28BF52537D355009751EB /* PhotoPickerController_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC28BF42537D355009751EB /* PhotoPickerController_Example.swift */; };
+		DAFE9CB52538991C0036FB2B /* HStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE9CB42538991C0036FB2B /* HStack_Example.swift */; };
+		DAFE9CB8253899230036FB2B /* VStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE9CB7253899230036FB2B /* VStack_Example.swift */; };
+		DAFE9CBB2538992B0036FB2B /* LoginForm_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE9CBA2538992B0036FB2B /* LoginForm_Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +87,9 @@
 		DAC28BEA2537D1A6009751EB /* PreviewController_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController_Example.swift; sourceTree = "<group>"; };
 		DAC28BF12537D2BE009751EB /* Example_Com_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Example_Com_PDF.pdf; sourceTree = "<group>"; };
 		DAC28BF42537D355009751EB /* PhotoPickerController_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerController_Example.swift; sourceTree = "<group>"; };
+		DAFE9CB42538991C0036FB2B /* HStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Example.swift; sourceTree = "<group>"; };
+		DAFE9CB7253899230036FB2B /* VStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Example.swift; sourceTree = "<group>"; };
+		DAFE9CBA2538992B0036FB2B /* LoginForm_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm_Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,9 @@
 				DAC28BB92537CC91009751EB /* Text_Example.swift */,
 				DAC28BBA2537CC91009751EB /* Toggle_Example.swift */,
 				DAC28BBB2537CC91009751EB /* ForEachList_Example.swift */,
+				DAFE9CB42538991C0036FB2B /* HStack_Example.swift */,
+				DAFE9CB7253899230036FB2B /* VStack_Example.swift */,
+				DAFE9CBA2538992B0036FB2B /* LoginForm_Example.swift */,
 			);
 			path = Code;
 			sourceTree = SOURCE_ROOT;
@@ -264,13 +273,16 @@
 				DAC28BC02537CC91009751EB /* ActionSheet_Example.swift in Sources */,
 				DAC28BCB2537CC91009751EB /* SafariView_Example.swift in Sources */,
 				DAC28BC82537CC91009751EB /* ButtonItemSheet_Example.swift in Sources */,
+				DAFE9CBB2538992B0036FB2B /* LoginForm_Example.swift in Sources */,
 				DAC28BCF2537CC91009751EB /* Alert_Example.swift in Sources */,
 				DAC28BCA2537CC91009751EB /* Map_Example.swift in Sources */,
+				DAFE9CB52538991C0036FB2B /* HStack_Example.swift in Sources */,
 				DAC28BEB2537D1A6009751EB /* PreviewController_Example.swift in Sources */,
 				DAC28BE82537D0FE009751EB /* EmailCompose_Example.swift in Sources */,
 				DAC28BCD2537CC91009751EB /* NavigationView_Example.swift in Sources */,
 				DAC28BCC2537CC91009751EB /* ToolBar_Example.swift in Sources */,
 				DAC28BBF2537CC91009751EB /* SFSymbolImage_Example.swift in Sources */,
+				DAFE9CB8253899230036FB2B /* VStack_Example.swift in Sources */,
 				DAC28BC92537CC91009751EB /* ButtonSheet_Example.swift in Sources */,
 				DAC28BBE2537CC91009751EB /* FormList_Example.swift in Sources */,
 				DAC28BC12537CC91009751EB /* LocalImage_Example.swift in Sources */,

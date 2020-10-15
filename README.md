@@ -85,6 +85,16 @@
 | <img width="300" alt="image" src="/Image/Toggle.png?raw=true"> | <img width="300" alt="image" src="/Image/Picker.png?raw=true"> |
 |  [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Toggle_Example.swift) | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Picker_Example.swift) |
 
+# 画面に複数の要素を表示
+
+上記ビューの複数を1つのビューに組み合わせて表示できます。
+
+| HStack | VStack | Form |
+|---|---|---|
+| 水平配置 | 垂直配置 | ログインフォームの例 |
+| <img width="300" alt="image" src="/Image/HStack.png?raw=true"> | <img width="300" alt="image" src="/Image/VStack.png?raw=true"> | <img width="300" alt="image" src="/Image/LoginForm.png?raw=true"> |
+ | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/HStack_Example.swift) | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/VStack_Example.swift)  | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/LoginForm_Example.swift) |
+
 # アラート / アクションシート
 
 | Alert | ActionSheet |

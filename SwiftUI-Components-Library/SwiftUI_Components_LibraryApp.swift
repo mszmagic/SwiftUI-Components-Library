@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUI_Components_LibraryApp: App {
     var body: some Scene {
         WindowGroup {
-            PhotoPickerController_Example()
+            LoginForm_Example(onSubmit: { _, _ in
+                return
+            })
         }
     }
 }
