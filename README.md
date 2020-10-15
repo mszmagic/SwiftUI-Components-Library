@@ -129,6 +129,7 @@
 | <img width="300" alt="image" src="/Image/Alert.png?raw=true"> | <img width="300" alt="image" src="/Image/ActionSheet.png?raw=true"> |
  | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Alert_Example.swift){:target="_blank"} [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/AlertItems_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/ActionSheet_Example.swift){:target="_blank"} |
  
+ <br/><br/>
  
  # `ViewModifier` ビューモディファイア
  
@@ -153,7 +154,11 @@
 | .onAppear | 画面にビューが表示されたときに実行するアクション |
 | .onTapGesture | ユーザーがビューをタップしたときにアクションを実行する |
  
+ <br/><br/>
+ 
  #  UIKit + SwiftUI
+ 
+ <br/><br/>
  
  ##  UIHostingController
  
@@ -164,6 +169,8 @@
  let uiKitViewController = UIHostingController(rootView: swiftuiView)
  self.present(uiKitViewController, animated: true, completion: nil)
  ```
+ 
+ <br/><br/>
 
 ## UIViewControllerRepresentable
 
