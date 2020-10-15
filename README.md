@@ -102,8 +102,20 @@
 | アラートウィンドウを表示 | アクションシートを画面の最下部に表示 |
 | <img width="300" alt="image" src="/Image/Alert.png?raw=true"> | <img width="300" alt="image" src="/Image/ActionSheet.png?raw=true"> |
  | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Alert_Example.swift){:target="_blank"} [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/AlertItems_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/ActionSheet_Example.swift){:target="_blank"} |
+ 
+ # UIKit + SwiftUI
+ 
+ ## UIHostingController
+ 
+ UIHostingControllerを使用して、UIKitビュー内にSwiftUIビューを表示することも可能です。
+ 
+ ```swift
+ let swiftuiView = Map_Example()
+ let uiKitViewController = UIHostingController(rootView: swiftuiView)
+ self.present(uiKitViewController, animated: true, completion: nil)
+ ```
 
-# UIViewControllerRepresentable
+## UIViewControllerRepresentable
 
 SwiftUI は新しいフレームワークであるので、フィーチャー UIKit の幾らかを欠いています。そららフィーチャー UIKit を活用する為には、UIViewControllerRepresentable を使用しなければなりません。
 
