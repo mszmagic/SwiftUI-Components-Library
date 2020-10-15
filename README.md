@@ -22,7 +22,7 @@
 
 [アラート / アクションシート](#アラート--アクションシート)
 
-[(新着) View modifiers](#view-modifiers)
+[(新着) View modifiers](#viewmodifier-ビューモディファイア)
 
 [(新着) UIKit + SwiftUI](#uikit--swiftui)
 
