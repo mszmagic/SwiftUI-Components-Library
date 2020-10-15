@@ -131,7 +131,7 @@
  
  <br/><br/>
  
-# `ViewModifier` ビューモディファイア
+# ViewModifier ビューモディファイア
  
  ビューモディファイアを使ってビューの外観を変更することができます。
  
@@ -165,8 +165,6 @@
  let uiKitViewController = UIHostingController(rootView: swiftuiView)
  self.present(uiKitViewController, animated: true, completion: nil)
  ```
- 
- <br/><br/>
 
 ## UIViewControllerRepresentable
 
