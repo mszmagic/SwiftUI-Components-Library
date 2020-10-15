@@ -2,10 +2,6 @@
 
 これは、`SwiftUI` の共通のビュー要素のコレクションです。`SwiftUI` を学び始めた初心者向けです。
 
-**質問をしよう**：[この問題ページで、自由に `SwiftUI` についての質問をしてください。](https://github.com/mszmagic/SwiftUI-Components-Library/issues){:target="_blank"}
-
-**コードの提供**：[コードを提供するためのGithub PRを自由に作成してください。](https://github.com/mszmagic/SwiftUI-Components-Library){:target="_blank"}
-
 [iOS 14 の新機能](#ios-14-の新機能)
 
 [文字](#文字)
@@ -156,6 +152,10 @@ SwiftUI は新しいフレームワークであるので、フィーチャー UI
 | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/MessageCompose_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/SafariView_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/FileBrowser_Example.swift){:target="_blank"} |
 
 # ⭐️
+
+**質問をしよう**：[この問題ページで、自由に `SwiftUI` についての質問をしてください。](https://github.com/mszmagic/SwiftUI-Components-Library/issues){:target="_blank"}
+
+**コードの提供**：[コードを提供するためのGithub PRを自由に作成してください。](https://github.com/mszmagic/SwiftUI-Components-Library){:target="_blank"}
 
 [こちらのウェブページにアクセスすると、私の公開されているQiitaの記事のリストをカテゴリー別にご覧いただけます。](https://mszmagic.com/?page_id=16)
 
