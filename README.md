@@ -112,6 +112,12 @@
 | 水平配置 | 垂直配置 | ログインフォームの例 |
 | <img width="300" alt="image" src="/Image/HStack.png?raw=true"> | <img width="300" alt="image" src="/Image/VStack.png?raw=true"> | <img width="300" alt="image" src="/Image/LoginForm.png?raw=true"> |
  | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/HStack_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/VStack_Example.swift){:target="_blank"}  | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/LoginForm_Example.swift){:target="_blank"} |
+ 
+ | ZStack |
+ |---|
+ | 奥行き配置（前後） | 
+ | <img width="300" alt="image" src="/Image/ZStack.png?raw=true"> |
+| [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/ZStack_Example.swift){:target="_blank"} |
 
 # アラート / アクションシート
 

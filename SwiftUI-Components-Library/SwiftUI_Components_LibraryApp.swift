@@ -11,9 +11,7 @@ import SwiftUI
 struct SwiftUI_Components_LibraryApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginForm_Example(onSubmit: { _, _ in
-                return
-            })
+            ZStack_Example()
         }
     }
 }
