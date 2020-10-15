@@ -2,9 +2,27 @@
 
 これは、`SwiftUI` の共通のビュー要素のコレクションです。`SwiftUI` を学び始めた初心者向けです。
 
-**質問をしよう**：[この問題ページで、自由に `SwiftUI` についての質問をしてください。](https://github.com/mszmagic/SwiftUI-Components-Library/issues){:target="_blank"}
+[iOS 14 の新機能](#ios-14-の新機能)
 
-**コードの提供**：[コードを提供するためのGithub PRを自由に作成してください。](https://github.com/mszmagic/SwiftUI-Components-Library){:target="_blank"}
+[文字](#文字)
+
+[画像](#画像)
+
+[Table](#table)
+
+[Navigations](#navigations)
+
+[アクションを実行するにはユーザーに別のビューを表示するには](#アクションを実行するにはユーザーに別のビューを表示するには)
+
+[タブバー](#タブバー)
+
+[指定したオプションから1つの値を選択](#指定したオプションから1つの値を選択)
+
+[画面に複数の要素を表示](#画面に複数の要素を表示)
+
+[アラート / アクションシート](#アラート--アクションシート)
+
+[UIKit + SwiftUI](#uikit--swiftui)
 
 # iOS 14 の新機能
 
@@ -134,6 +152,10 @@ SwiftUI は新しいフレームワークであるので、フィーチャー UI
 | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/MessageCompose_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/SafariView_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/FileBrowser_Example.swift){:target="_blank"} |
 
 # ⭐️
+
+**質問をしよう**：[この問題ページで、自由に `SwiftUI` についての質問をしてください。](https://github.com/mszmagic/SwiftUI-Components-Library/issues){:target="_blank"}
+
+**コードの提供**：[コードを提供するためのGithub PRを自由に作成してください。](https://github.com/mszmagic/SwiftUI-Components-Library){:target="_blank"}
 
 [こちらのウェブページにアクセスすると、私の公開されているQiitaの記事のリストをカテゴリー別にご覧いただけます。](https://mszmagic.com/?page_id=16)
 
