@@ -131,7 +131,7 @@
  
  <br/><br/>
  
- # `ViewModifier` ビューモディファイア
+# `ViewModifier` ビューモディファイア
  
  ビューモディファイアを使ってビューの外観を変更することができます。
  
@@ -143,7 +143,7 @@
      .foregroundColor(.blue)
  ```
  
- 以下は一般的なビューモディファイアのリストです：
+以下は一般的なビューモディファイアのリストです：
  
 | 変数名 | 使用法 |
 |---|---|
@@ -154,13 +154,9 @@
 | .onAppear | 画面にビューが表示されたときに実行するアクション |
 | .onTapGesture | ユーザーがビューをタップしたときにアクションを実行する |
  
- <br/><br/>
+#  UIKit + SwiftUI
  
- #  UIKit + SwiftUI
- 
- <br/><br/>
- 
- ##  UIHostingController
+##  UIHostingController
  
  UIHostingControllerを使用して、UIKitビュー内にSwiftUIビューを表示することも可能です。
  
