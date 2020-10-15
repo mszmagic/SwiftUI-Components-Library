@@ -46,6 +46,7 @@
 		DAFE9CB52538991C0036FB2B /* HStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE9CB42538991C0036FB2B /* HStack_Example.swift */; };
 		DAFE9CB8253899230036FB2B /* VStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE9CB7253899230036FB2B /* VStack_Example.swift */; };
 		DAFE9CBB2538992B0036FB2B /* LoginForm_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE9CBA2538992B0036FB2B /* LoginForm_Example.swift */; };
+		DAFE9CBE2538A0C90036FB2B /* ZStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE9CBD2538A0C90036FB2B /* ZStack_Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		DAFE9CB42538991C0036FB2B /* HStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Example.swift; sourceTree = "<group>"; };
 		DAFE9CB7253899230036FB2B /* VStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Example.swift; sourceTree = "<group>"; };
 		DAFE9CBA2538992B0036FB2B /* LoginForm_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm_Example.swift; sourceTree = "<group>"; };
+		DAFE9CBD2538A0C90036FB2B /* ZStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				DAC28BBB2537CC91009751EB /* ForEachList_Example.swift */,
 				DAFE9CB42538991C0036FB2B /* HStack_Example.swift */,
 				DAFE9CB7253899230036FB2B /* VStack_Example.swift */,
+				DAFE9CBD2538A0C90036FB2B /* ZStack_Example.swift */,
 				DAFE9CBA2538992B0036FB2B /* LoginForm_Example.swift */,
 			);
 			path = Code;
@@ -301,6 +304,7 @@
 				DAC28BBC2537CC91009751EB /* TextField_Example.swift in Sources */,
 				DAC28BF52537D355009751EB /* PhotoPickerController_Example.swift in Sources */,
 				DAC28BC52537CC91009751EB /* SecureTextField_Example.swift in Sources */,
+				DAFE9CBE2538A0C90036FB2B /* ZStack_Example.swift in Sources */,
 				DAC28BE22537CF28009751EB /* FileBrowser_Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
