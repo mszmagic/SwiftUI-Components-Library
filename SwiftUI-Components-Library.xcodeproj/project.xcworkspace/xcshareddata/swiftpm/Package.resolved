@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUICompatible",
+        "repositoryURL": "https://github.com/mszmagic/SwiftUICompatible.git",
+        "state": {
+          "branch": null,
+          "revision": "4159ae36966b65d2e2808b710bfcd70c7d12f88a",
+          "version": "1.0.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
