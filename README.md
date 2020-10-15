@@ -110,3 +110,7 @@ SwiftUI は新しいフレームワークであるので、フィーチャー UI
 | テキストメッセージコンポーザー | ウェブ表示 | ドキュメントピッカー |
 | | <img width="300" alt="image" src="/Image/SafariView.png?raw=true"> | <img width="300" alt="image" src="/Image/FileBrowser.png?raw=true"> |
 | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/MessageCompose_Example.swift) | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/SafariView_Example.swift) | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/FileBrowser_Example.swift) |
+
+# ⭐️
+
+[こちらのウェブページにアクセスすると、私の公開されているQiitaの記事のリストをカテゴリー別にご覧いただけます。](https://mszmagic.com/?page_id=16)
