@@ -22,7 +22,9 @@
 
 [アラート / アクションシート](#アラート--アクションシート)
 
-[UIKit + SwiftUI](#uikit--swiftui)
+[(新着) View modifiers](#view-modifiers)
+
+[(新着) UIKit + SwiftUI](#uikit--swiftui)
 
 # iOS 14 の新機能
 
@@ -127,9 +129,33 @@
 | <img width="300" alt="image" src="/Image/Alert.png?raw=true"> | <img width="300" alt="image" src="/Image/ActionSheet.png?raw=true"> |
  | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Alert_Example.swift){:target="_blank"} [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/AlertItems_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/ActionSheet_Example.swift){:target="_blank"} |
  
- # UIKit + SwiftUI
  
- ## UIHostingController
+ # `ViewModifier` ビューモディファイア
+ 
+ ビューモディファイアを使ってビューの外観を変更することができます。
+ 
+ 例：
+ 
+ ```swift
+ Image(systemName: "wand.and.stars")
+     .font(.largeTitle)
+     .foregroundColor(.blue)
+ ```
+ 
+ 以下は一般的なビューモディファイアのリストです：
+ 
+| 変数名 | 使用法 |
+|---|---|
+| .font | 文字とSFシンボル (SF Symbol) 画像のフォントサイズを変更 |
+| .frame | 表示されるオブジェクトのサイズを変更 |
+| .padding() | オブジェクトの周囲にスペースを追加 |
+| .foregroundColor(.blue) | オブジェクトの色を変更 |
+| .onAppear | 画面にビューが表示されたときに実行するアクション |
+| .onTapGesture | ユーザーがビューをタップしたときにアクションを実行する |
+ 
+ #  UIKit + SwiftUI
+ 
+ ##  UIHostingController
  
  UIHostingControllerを使用して、UIKitビュー内にSwiftUIビューを表示することも可能です。
  
