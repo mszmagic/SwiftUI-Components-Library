@@ -2,6 +2,14 @@
 
 これは、`SwiftUI` の共通のビュー要素のコレクションです。`SwiftUI` を学び始めた初心者向けです。
 
+[(新着) SwiftUI ビューの基本フォーマット](#SwiftUI-ビューの基本フォーマット)
+
+[(新着) 変数の型](#変数の型)
+
+[(新着) プレビュー](#プレビュー)
+
+[(新着) 出発点](#出発点)
+
 [iOS 14 の新機能](#ios-14-の新機能)
 
 [文字](#文字)
@@ -183,6 +191,126 @@ SwiftUI は新しいフレームワークであるので、フィーチャー UI
 | テキストメッセージコンポーザー | ウェブ表示 | ドキュメントピッカー |
 | | <img width="300" alt="image" src="/Image/SafariView.png?raw=true"> | <img width="300" alt="image" src="/Image/FileBrowser.png?raw=true"> |
 | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/MessageCompose_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/SafariView_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/FileBrowser_Example.swift){:target="_blank"} |
+
+# SwiftUI ビューの基本フォーマット
+
+SwiftUI ビューの基本構造は次のとおり：
+
+```swift
+import SwiftUI
+
+struct TextField_Example: View {
+    
+    // 変数
+    
+    var body: some View {
+        
+        //UIコンポーネント
+        //Text, Image, Form, VStack, List, ...
+        
+    }
+    
+}
+```
+
+`var body: some View` セクションで、ビューコードを入力。
+
+このWebページで提供されているサンプルコードでは、`body` コードブロック内のコンテンツに注意を払う必要がある。
+
+`// 変数` セクションで、変数を宣言する。
+
+# 変数の型
+
+お気づきになられたかもしれませんが、`SwiftUI` にはいくつもの型の変数があります。最もよく使われている変数の型2つを以下でご紹介します。
+
+## @State
+
+```
+struct ButtonSheet_Example: View {
+
+    @State var showAnotherView: Bool = false
+    
+    var body: some View {
+        
+        Button(action: {
+            self.showAnotherView = true
+        }, label: {
+            Text("別のビューを表示")
+        })
+        .sheet(isPresented: $showAnotherView, content: {
+            AnotherView(textContent: "Hello World.")
+        })
+        
+    }
+}
+```
+
+`@State` の値を変更することで、ビューの見た目に影響を与えることができます。
+
+例えば、もしプログラムのどこかで `showAnotherView`が `true` に設定されていれば、ビュー `AnotherView` が表示されます。
+
+プログラムの中で `@State` 変数を使う時は、変数名の前に `$` 記号を付け加える必要があるかもしれません。そうすることで、ビューにその変数を監視（および変数が変更されればビューのコンテンツを更新）させることができます。
+
+`@State` 変数の値を次の3つの方法で初期化できます：
+
+1. `@State var showAnotherView: Bool = false`
+2. ビュー `ButtonSheet_Example` を初期化すると、変数を初期化できます。 `ButtonSheet_Example(showAnotherView: true)`
+3. `init` 関数の中で変数を初期化できます：
+
+```swift
+struct ButtonSheet_Example: View {
+
+    @State var showAnotherView: Bool
+    
+    init(...) {
+        self.showAnotherView = .init(initialValue: false)
+    }
+    
+    var body: some View {
+        // TODO
+    }
+    
+}
+```
+
+## 正規変数
+
+正規変数は値を格納するために利用されます。正規変数を更新してもプログラムの見た目に影響はありません。
+
+```swift
+struct ButtonSheet_Example: View {
+
+    var userTappedButton: () -> Void
+    
+    var body: some View {
+        
+        Button(action: {
+            self.userTappedButton()
+        }, label: {
+            Text("別のビューを表示")
+        })
+        
+    }
+}
+```
+
+# プレビュー
+
+XcodeではSwiftUIファイルに加えた変更を直接プレビューすることができます。プレビューは以下のように宣言します。
+
+```swift
+struct TextField_Example_Previews: PreviewProvider {
+    static var previews: some View {
+        TextField_Example(textEntered: "SwiftUI_Components-Library")
+    }
+}
+```
+
+`static var previews: some View` 内で、SwiftUI表示を初期化していただけます。Xコードの右側にある `Resume` ボタンをクリックするとプレビューが表示されます。
+
+# 出発点
+
+新規Xコードプロジェクトを作成し、`SwiftUI App` の使用を選択することをお勧めします。それにより、練習用プロジェクトで上記のコンポーネントをお試しいただけます。
 
 # ⭐️
 
