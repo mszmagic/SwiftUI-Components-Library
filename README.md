@@ -182,7 +182,7 @@ SwiftUI は新しいフレームワークであるので、フィーチャー UI
 |---|---|---|
 | ファイル内容をプレビュー | フォトピッカー | メールコンポーザー |
 | <img width="300" alt="image" src="/Image/PreviewController.png?raw=true"> | <img width="300" alt="image" src="/Image/PhotoPicker.png?raw=true"> | |
-| [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/PreviewController_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/PhotoPickerController_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/EmailCompose_Example.swift){:target="_blank"} |
+| [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/PreviewController_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/PhotoPickerController_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/EmailCompose_Example.swift){:target="_blank"} |
 
 <br/><br/>
 
@@ -190,7 +190,7 @@ SwiftUI は新しいフレームワークであるので、フィーチャー UI
 |---|---|---|
 | テキストメッセージコンポーザー | ウェブ表示 | ドキュメントピッカー |
 | | <img width="300" alt="image" src="/Image/SafariView.png?raw=true"> | <img width="300" alt="image" src="/Image/FileBrowser.png?raw=true"> |
-| [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/MessageCompose_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/SafariView_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/FileBrowser_Example.swift){:target="_blank"} |
+| [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/MessageCompose_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/SafariView_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Competible/FileBrowser_Example.swift){:target="_blank"} |
 
 # SwiftUI ビューの基本フォーマット
 
