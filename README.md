@@ -2,15 +2,15 @@
 
 これは、`SwiftUI` の共通のビュー要素のコレクションです。`SwiftUI` を学び始めた初心者向けです。
 
-[(新着) SwiftUI ビューの基本フォーマット](#swiftui-ビューの基本フォーマット)
+[SwiftUI ビューの基本フォーマット](#swiftui-ビューの基本フォーマット)
 
-[(新着) 変数の型](#変数の型)
+[変数の型](#変数の型)
 
-[(新着) プレビュー](#プレビュー)
+[プレビュー](#プレビュー)
 
-[(新着) 出発点](#出発点)
+[出発点](#出発点)
 
-[iOS 14 の新機能 (更新しました)](#ios-14-の新機能)
+[iOS 14の新機能 ](#ios-14-の新機能)
 
 [文字](#文字)
 
@@ -30,9 +30,11 @@
 
 [アラート / アクションシート](#アラート--アクションシート)
 
-[(新着) View modifiers](#viewmodifier-ビューモディファイア)
+[View modifiers](#viewmodifier-ビューモディファイア)
 
-[(新着) UIKit + SwiftUI](#uikit--swiftui)
+[UIKit + SwiftUI](#uikit--swiftui)
+
+[プログラミング言語のSwiftUI (10) に関する記事をさらに読むには、こちらをクリックしてください](https://mszmagic.com/ioskiji/#swiftui)
 
 # iOS 14 の新機能
 
@@ -175,6 +177,10 @@
  ```
 
 ## UIViewControllerRepresentable
+
+こちらのコード例は、`SwiftUICompatible` と呼ばれるフレームワークを使用しています。
+
+[`SwiftUICompatible` へアクセスするにはこちらをクリックしてください。](https://github.com/mszmagic/SwiftUICompatible)
 
 SwiftUI は新しいフレームワークであるので、フィーチャー UIKit の幾らかを欠いています。そららフィーチャー UIKit を活用する為には、UIViewControllerRepresentable を使用しなければなりません。
 
