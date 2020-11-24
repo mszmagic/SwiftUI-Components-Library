@@ -34,7 +34,7 @@
 
 [UIKit + SwiftUI](#uikit--swiftui)
 
-[プログラミング言語のSwiftUI (10) に関する記事をさらに読むには、こちらをクリックしてください](https://mszmagic.com/ioskiji/#swiftui)
+[プログラミング言語のSwiftUIに関する記事をさらに読むには、こちらをクリックしてください](https://mszmagic.com/ioskiji/#swiftui)
 
 # iOS 14 の新機能
 
