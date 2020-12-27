@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DA0F1736253A5816008C5E7C /* DatePicker_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0F1735253A5816008C5E7C /* DatePicker_Example.swift */; };
 		DA0F1739253A5971008C5E7C /* SignInWithAppleButton_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0F1738253A5971008C5E7C /* SignInWithAppleButton_Example.swift */; };
+		DA6211EC259930BF00DAC95E /* Stepper_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211EB259930BF00DAC95E /* Stepper_Example.swift */; };
 		DAC28B912537CC69009751EB /* SwiftUI_Components_LibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC28B902537CC69009751EB /* SwiftUI_Components_LibraryApp.swift */; };
 		DAC28B952537CC69009751EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC28B942537CC69009751EB /* Assets.xcassets */; };
 		DAC28B982537CC69009751EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC28B972537CC69009751EB /* Preview Assets.xcassets */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		DA0F1735253A5816008C5E7C /* DatePicker_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_Example.swift; sourceTree = "<group>"; };
 		DA0F1738253A5971008C5E7C /* SignInWithAppleButton_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton_Example.swift; sourceTree = "<group>"; };
+		DA6211EB259930BF00DAC95E /* Stepper_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_Example.swift; sourceTree = "<group>"; };
 		DAC28B8D2537CC69009751EB /* SwiftUI-Components-Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Components-Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC28B902537CC69009751EB /* SwiftUI_Components_LibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Components_LibraryApp.swift; sourceTree = "<group>"; };
 		DAC28B942537CC69009751EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				DAFE9CBA2538992B0036FB2B /* LoginForm_Example.swift */,
 				DA0F1735253A5816008C5E7C /* DatePicker_Example.swift */,
 				DA0F1738253A5971008C5E7C /* SignInWithAppleButton_Example.swift */,
+				DA6211EB259930BF00DAC95E /* Stepper_Example.swift */,
 			);
 			path = Code;
 			sourceTree = SOURCE_ROOT;
@@ -295,6 +298,7 @@
 				DAFE9CB8253899230036FB2B /* VStack_Example.swift in Sources */,
 				DAC28BC92537CC91009751EB /* ButtonSheet_Example.swift in Sources */,
 				DAC28BBE2537CC91009751EB /* FormList_Example.swift in Sources */,
+				DA6211EC259930BF00DAC95E /* Stepper_Example.swift in Sources */,
 				DAC28BC12537CC91009751EB /* LocalImage_Example.swift in Sources */,
 				DAC28B912537CC69009751EB /* SwiftUI_Components_LibraryApp.swift in Sources */,
 				DAC28BD52537CC91009751EB /* ForEachList_Example.swift in Sources */,

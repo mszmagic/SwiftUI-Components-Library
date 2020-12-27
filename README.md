@@ -60,6 +60,12 @@
 | <img width="300" alt="image" src="/Image/TextEditor.png?raw=true"> | <img width="300" alt="image" src="/Image/DatePicker.png?raw=true"> | <img width="300" alt="image" src="/Image/SignInWithApple.png?raw=true"> |
 | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/TextEditor_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/DatePicker_Example.swift){:target="_blank"} | [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/SignInWithAppleButton_Example.swift){:target="_blank"} |
 
+| Stepper |
+|---|
+| 値を増減 | 
+| <img width="300" alt="image" src="/Image/Stepper.png?raw=true"> |
+| [コード例を見る](https://github.com/mszmagic/SwiftUI-Components-Library/blob/main/Code/Stepper_Example.swift){:target="_blank"} |
+
 # 文字
 
 | Text  | TextField  | SecureField  |
